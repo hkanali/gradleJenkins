@@ -10,7 +10,6 @@ task wrapper(type: Wrapper) {
 
     description = "Generates gradlew[.bat] scripts"
     gradleVersion = "2.0"
-
 }
 dependencies {
     compile fileTree(dir: "WEB-INF/lib", include: "*.jar")
