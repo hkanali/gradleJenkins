@@ -17,6 +17,7 @@ task wrapper(type: Wrapper) {
 dependencies {
 
     compile fileTree(dir: "WEB-INF/lib", include: "*.jar")
+
     testCompile "junit:junit:4.11"
     compile "org.hamcrest:hamcrest-core:1.3"
 
